@@ -5,3 +5,557 @@ Please press confirm on your phone.
 Please press confirm on your phone.
 Loading the contact, this may take a little while.
 [3J[H[2JLogin successfully as 柳博📈
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 254, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 336, in get_msg
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 572, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 524, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 637, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='wx.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=syAk1NvYeG3SS4gr&skey=@crypt_9e7748df_e7e204a15ebe3aa2419611504537fd91&pass_ticket=NY0%2BX9ncCzBk%2FjsNUh%2BWgqkHap%2FJ8i9MgbK%2FmmKrQ%2Fu7LTaX4%2BQJGH%2BHUNqm3Rt2 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fac5cc5d690>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 254, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 336, in get_msg
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 572, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 524, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 637, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='wx.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=syAk1NvYeG3SS4gr&skey=@crypt_9e7748df_e7e204a15ebe3aa2419611504537fd91&pass_ticket=NY0%2BX9ncCzBk%2FjsNUh%2BWgqkHap%2FJ8i9MgbK%2FmmKrQ%2Fu7LTaX4%2BQJGH%2BHUNqm3Rt2 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fac5e159cd0>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 254, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 336, in get_msg
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 572, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 524, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 637, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='wx.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=syAk1NvYeG3SS4gr&skey=@crypt_9e7748df_e7e204a15ebe3aa2419611504537fd91&pass_ticket=NY0%2BX9ncCzBk%2FjsNUh%2BWgqkHap%2FJ8i9MgbK%2FmmKrQ%2Fu7LTaX4%2BQJGH%2BHUNqm3Rt2 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fac5e1413d0>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 254, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 336, in get_msg
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 572, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 524, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 637, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='wx.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=syAk1NvYeG3SS4gr&skey=@crypt_9e7748df_e7e204a15ebe3aa2419611504537fd91&pass_ticket=NY0%2BX9ncCzBk%2FjsNUh%2BWgqkHap%2FJ8i9MgbK%2FmmKrQ%2Fu7LTaX4%2BQJGH%2BHUNqm3Rt2 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fac2a408990>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 254, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 336, in get_msg
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 572, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 524, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 637, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='wx.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=syAk1NvYeG3SS4gr&skey=@crypt_9e7748df_e7e204a15ebe3aa2419611504537fd91&pass_ticket=NY0%2BX9ncCzBk%2FjsNUh%2BWgqkHap%2FJ8i9MgbK%2FmmKrQ%2Fu7LTaX4%2BQJGH%2BHUNqm3Rt2 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fac5e27cc90>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 254, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 336, in get_msg
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 572, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 524, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 637, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='wx.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=syAk1NvYeG3SS4gr&skey=@crypt_9e7748df_e7e204a15ebe3aa2419611504537fd91&pass_ticket=NY0%2BX9ncCzBk%2FjsNUh%2BWgqkHap%2FJ8i9MgbK%2FmmKrQ%2Fu7LTaX4%2BQJGH%2BHUNqm3Rt2 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fac5cf1cbd0>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 254, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 336, in get_msg
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 572, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 524, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 637, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='wx.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=syAk1NvYeG3SS4gr&skey=@crypt_9e7748df_e7e204a15ebe3aa2419611504537fd91&pass_ticket=NY0%2BX9ncCzBk%2FjsNUh%2BWgqkHap%2FJ8i9MgbK%2FmmKrQ%2Fu7LTaX4%2BQJGH%2BHUNqm3Rt2 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fac5dc96510>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 254, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 336, in get_msg
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 572, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 524, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 637, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='wx.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=syAk1NvYeG3SS4gr&skey=@crypt_9e7748df_e7e204a15ebe3aa2419611504537fd91&pass_ticket=NY0%2BX9ncCzBk%2FjsNUh%2BWgqkHap%2FJ8i9MgbK%2FmmKrQ%2Fu7LTaX4%2BQJGH%2BHUNqm3Rt2 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fac5442d290>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Failed to fetch contact, that may because of the amount of your chatrooms
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 248, in maintain_loop
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 308, in sync_check
+IndexError: tuple index out of range
+
+2
+3
+4
+5
+6
+7
+5.220219
+@@6acf6273de11f94b3393276e7480089787d32cfb16762d143d7eba462b60bb1e
+鑫鑫家园
+8
+9
+10
+11
+12
+5.220219
+@@6acf6273de11f94b3393276e7480089787d32cfb16762d143d7eba462b60bb1e
+鑫鑫家园
+13
+5.220219
+@@6acf6273de11f94b3393276e7480089787d32cfb16762d143d7eba462b60bb1e
+鑫鑫家园
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+5.221969
+@@6acf6273de11f94b3393276e7480089787d32cfb16762d143d7eba462b60bb1e
+鑫鑫家园
+79
+80
+81
+82
+83
+84
+5.221969
+@@6acf6273de11f94b3393276e7480089787d32cfb16762d143d7eba462b60bb1e
+鑫鑫家园
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+5.227528
+@@6acf6273de11f94b3393276e7480089787d32cfb16762d143d7eba462b60bb1e
+鑫鑫家园
+150
+151
+152
+153
+154
+155
+5.227528
+@@6acf6273de11f94b3393276e7480089787d32cfb16762d143d7eba462b60bb1e
+鑫鑫家园
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+Traceback (most recent call last):
+  File "routine4.py", line 13, in <module>
+    chatrooms = itchat.get_chatrooms(update=True)
+  File "/home/ubuntu/test/ItChat/itchat/components/contact.py", line 313, in get_chatrooms
+  File "/home/ubuntu/test/ItChat/itchat/components/contact.py", line 284, in get_contact
+  File "/home/ubuntu/test/ItChat/itchat/components/contact.py", line 278, in _get_contact
+  File "/home/ubuntu/test/ItChat/itchat/components/contact.py", line 42, in update_chatroom
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 572, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 524, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/sessions.py", line 637, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='wx.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxbatchgetcontact?type=ex&r=1542834376 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fac28183f90>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+Exception in thread Thread-1 (most likely raised during interpreter shutdown):Exception in thread Thread-6 (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 271, in maintain_loop
+<type 'exceptions.AttributeError'>: 'NoneType' object has no attribute 'exceptions'
+Exception in thread Thread-8 (most likely raised during interpreter shutdown):
+Traceback (most recent call last):Exception in thread Thread-7 (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 271, in maintain_loop
+<type 'exceptions.AttributeError'>: 'NoneType' object has no attribute 'exceptions'
+Exception in thread Thread-4 (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 271, in maintain_loop
+<type 'exceptions.AttributeError'>: 'NoneType' object has no attribute 'exceptions'
+Exception in thread Thread-3 (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 271, in maintain_loop
+<type 'exceptions.AttributeError'>: 'NoneType' object has no attribute 'exceptions'
+Exception in thread Thread-2 (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 271, in maintain_loop
+<type 'exceptions.AttributeError'>: 'NoneType' object has no attribute 'exceptions'
+Exception in thread Thread-5 (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 271, in maintain_loop
+<type 'exceptions.AttributeError'>: 'NoneType' object has no attribute 'exceptions'
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+  File "/home/ubuntu/test/ItChat/itchat/components/login.py", line 271, in maintain_loop
+<type 'exceptions.AttributeError'>: 'NoneType' object has no attribute 'exceptions'
