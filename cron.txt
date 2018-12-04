@@ -1,0 +1,5 @@
+* * * * * cd /home/ubuntu/test/py/ && /usr/bin/python /home/ubuntu/test/py/pro_test.py
+9 9 * * 2,6 cd /home/ubuntu/test/py/ && /usr/bin/python /home/ubuntu/test/py/pro_waihui.py
+* * * * * cd /home/ubuntu/test/py/ && /usr/bin/python /home/ubuntu/test/py/pro_test_us.py
+9 9 * * 3,7 cd /home/ubuntu/test/py/ && /usr/bin/python /home/ubuntu/test/py/pro_waihui_tor.py
+
