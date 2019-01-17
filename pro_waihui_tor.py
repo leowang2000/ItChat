@@ -38,6 +38,6 @@ while i==1:
             #if chatroom['NickName'].find(u'test') > -1:
                 print chatroom["UserName"].encode('utf-8')
                 print chatroom["NickName"].encode('utf-8')
-                #itchat.send(u'加元汇率是'+str(data['CAD_CNY']['val']), chatroom['UserName'])
+                itchat.send(u'加元汇率是'+str(data['CAD_CNY']['val']), chatroom['UserName'])
                 itchat.send_image(filename,chatroom['UserName'])
 
